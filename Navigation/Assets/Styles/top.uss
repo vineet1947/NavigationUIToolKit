@@ -1,0 +1,96 @@
+.top {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(105, 212, 43, 0.65);
+    flex-grow: 1;
+}
+
+.bottom {
+    background-color: rgb(221, 20, 221);
+    height: 20%;
+    width: 100%;
+    -unity-background-scale-mode: scale-and-crop;
+    -unity-background-image-tint-color: rgb(178, 33, 33);
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    -unity-background-scale-mode: scale-to-fit;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: rgb(238, 228, 228);
+    -unity-text-align: upper-center;
+    white-space: normal;
+    scale: 1 1;
+}
+
+.textLabel {
+    -unity-background-scale-mode: scale-to-fit;
+    font-size: 25px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.button:hover {
+    scale: 1.05 1;
+}
+
+.main-menu-button {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    -unity-text-align: middle-center;
+    font-size: 22px;
+    -unity-font-style: italic;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=acea206eaaba8e845bafdb7cbd1ace9a&type=3#NotInter-Regular');
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.main-menu-button:hover {
+    scale: 1.05 1;
+}
+
+.setting-screen {
+    background-color: rgb(215, 217, 23);
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    -unity-text-align: upper-center;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.settings-lable {
+    visibility: visible;
+    -unity-font-style: bold-and-italic;
+    font-size: 25px;
+    -unity-text-align: middle-center;
+    white-space: normal;
+}

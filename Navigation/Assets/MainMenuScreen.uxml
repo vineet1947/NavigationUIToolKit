@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Styles/newStyles.uss?fileID=7433441132597879392&amp;guid=cf11a6ce299b1124bbf0980566d72427&amp;type=3#newStyles" />
+    <ui:VisualElement name="grandfather" class="mainscreen" style="flex-grow: 0;">
+        <ui:Label tabindex="-1" text="WELCOME" display-tooltip-when-elided="true" name="toplabel" class="toplabel top-label" />
+        <ui:VisualElement name="home" class="home" />
+        <ui:VisualElement name="profile" class="profile" />
+        <ui:VisualElement name="offers" class="offers" />
+        <ui:VisualElement name="bottomnavigation" class="navbar" style="align-items: center; top: 381px; left: 0; bottom: auto; position: absolute; justify-content: center;">
+            <ui:Button text="Home" display-tooltip-when-elided="true" name="homebutton" class="navbutton home-button" />
+            <ui:Button text="Profile" display-tooltip-when-elided="true" name="profilebutton" class="navbutton home-button" style="top: 7px; left: 167px; bottom: 1px;" />
+            <ui:Button text="Offers" display-tooltip-when-elided="true" name="offersbutton" class="navbutton home-button" style="top: 6px; left: 313px; bottom: 2px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
